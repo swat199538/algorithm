@@ -70,7 +70,8 @@ function divideBy2(decNumber)
 }
 
 //正整数十进制转其它进制的实现也是类似的
-function dividByAny(decNumer, base) {
+function dividByAny(decNumer, base)
+{
     var stack = new Stack(),
         rem,//余数
         bingaryString = '',//最后的结果
