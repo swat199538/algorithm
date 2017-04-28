@@ -12,7 +12,7 @@
  * clear():移除栈里所有元素
  * size():返回栈里所有元素。这个方法和栈里的length里的属性很相似
  * */
-function Stack()
+Stack = function()
 {
     //保存栈里的元素
     var items = [];

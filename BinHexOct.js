@@ -3,7 +3,7 @@
  */
 //利用栈把10进制转换成2进制
 
-function Stack()
+Stack = function ()
 {
     //保存栈里的元素
     var items = [];
